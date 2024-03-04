@@ -1,0 +1,41 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "SkolkovoInstitute--paradetox",
+  "dataset_size": 2157832,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/SkolkovoInstitute/paradetox/resolve/386ad9bc4cda26b05847ff0d2f3bb8f7f15f0273/train.tsv": {
+      "num_bytes": 2042108,
+      "checksum": "7b343d0481d3d37b3540cead7aa9cb4c1c8ac081ec18debf51975283af99a8ed"
+    }
+  },
+  "download_size": 2042108,
+  "features": {
+    "en_toxic_comment": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "en_neutral_comment": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4199940,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2157832,
+      "num_examples": 19766,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
